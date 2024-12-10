@@ -1,0 +1,6 @@
+[15-Nov-2024 08:15:00 UTC] PHP Warning:  Undefined array key "login_name" in /home/u745007485/domains/teastreetph.shop/public_html/billing/topbar.php on line 30
+[15-Nov-2024 08:15:00 UTC] PHP Warning:  Undefined array key "login_id" in /home/u745007485/domains/teastreetph.shop/public_html/billing/topbar.php on line 43
+[15-Nov-2024 08:15:05 UTC] PHP Warning:  Undefined array key "login_name" in /home/u745007485/domains/teastreetph.shop/public_html/billing/topbar.php on line 30
+[15-Nov-2024 08:15:05 UTC] PHP Warning:  Undefined array key "login_id" in /home/u745007485/domains/teastreetph.shop/public_html/billing/topbar.php on line 43
+[15-Nov-2024 08:15:14 UTC] PHP Warning:  Undefined array key "login_name" in /home/u745007485/domains/teastreetph.shop/public_html/billing/topbar.php on line 30
+[15-Nov-2024 08:15:14 UTC] PHP Warning:  Undefined array key "login_id" in /home/u745007485/domains/teastreetph.shop/public_html/billing/topbar.php on line 43

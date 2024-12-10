@@ -1,0 +1,48 @@
+/*=============== COLORS ===============*/
+
+:root {
+    --primary-color: #FFB7C5;
+    --text-color: #171427;
+    --bg-color: #fff;
+  }
+
+/*=============== MENU ===============*/
+
+.wrapper {
+    max-width: 960px;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 2em 1em;
+    columns: 100px 2;
+    column-gap: 32px;
+    @media (min-width: 600px) {
+      padding: 1em calc(50% - 300px);
+    }
+}
+
+.item {
+  border-bottom: 1px dotted #c5c5c5;
+  break-inside: avoid;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  margin-bottom: 4px;
+  background: var(--bg-color);
+  padding: 4pxy;
+  color: #555;
+}
+
+.list-title {
+  font-size: 30px;
+  color: var(--primary-color);
+  margin-bottom: 32px;
+}
+
+.list {
+  margin-bottom: 32px;
+}

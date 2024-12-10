@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^teastreetph\.shop [NC]
+RewriteRule ^$ /default.php [L,R=302]

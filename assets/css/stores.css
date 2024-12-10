@@ -1,0 +1,64 @@
+/*=============== COLORS ===============*/
+
+:root {
+  --primary-color: #FFB7C5;
+  --text-color: #171427;
+  --bg-color: #fff;
+}
+
+/*=============== STORE ===============*/
+
+.store-container {
+  max-width: 960px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  background: var(--color-bg);
+  box-shadow: 0 0 1rem hsla(0 0 0 / 16%);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin-bottom: 20px;
+}
+
+.content-container {
+  padding: 20px;
+}
+
+.content-container h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/*=============== GOOGLE MAP ===============*/
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/*=============== MEDIA QUERIES ===============*/
+
+@media (max-width: 964px) {
+  .store-container {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+
+@media (max-width: 700px) {
+  .store-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 20rem !important;
+  }
+  .map iframe {
+    height: 400px;
+  }
+}
